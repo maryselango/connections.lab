@@ -6,7 +6,7 @@ let barbie = [
   "Hi Film Barbie!",
   "Hi Teacher Barbie!",
   "Hi Artist Barbie!",
-  "Hi Creative Director Barbie",
+  "Hi Creative Technologist Barbie",
   "Hi Designer Barbie",
   "Hi regular normal Barbie!",
 ];
@@ -16,9 +16,9 @@ function setup() {
   background(233, 65, 150);
   fill(255);
   textFont("Cherry Bomb One")
-  textSize(20);
+  textSize(100);
   textAlign(CENTER);
-  text("What Barbie are you?", width/2, height/2);
+  text("Which Barbie are you?", width/2, height/2);
 }
 
 function draw() {}
