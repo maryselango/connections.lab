@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+body{
+  background-color:rgb(233, 65, 150)
+  
+}
+body {
+  font-family: 'Lobster', cursive;}
+
+  h2{
+    color: rgb(255, 255, 255);
+  }
+  p{
+    color: rgb(255, 255, 255);
+  }
