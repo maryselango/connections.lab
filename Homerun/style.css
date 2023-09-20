@@ -1,0 +1,46 @@
+body {
+    background-image: url(baseballbgg.png);
+    background-size: cover;
+    background-position: center;
+
+    /* keep the background in place, while the page scrolls.https://www.geeksforgeeks.org/how-to-specify-a-fixed-background-image-in-css/  */
+    background-attachment: fixed;
+    height : 3000px;
+}
+.wondered {
+    margin : 300px 250px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Graduate', serif;
+    font-size: 35px;
+    text-align: center;
+    color: crimson;
+}
+.hit {
+    margin : 100px 300px;
+    padding-top: 2800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Graduate', serif;
+    font-size: 35px;
+    text-align: center;
+    color: crimson;
+}
+
+.ball {
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /* I was having difficulty figuring out how to keep the ball in a fixed position on the screen while increasing it's size during the user's scroll, so i went to chat gpt to ask for help and it corrected my code. i orginally only had position fixed, and that made the ball stay in the corner, but i have to add top and left, it also suggested transform and transition so that it would smoothly increase*/
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s; /* Add a transition effect */
+}
