@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Global Market</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <audio autoplay loop>
+        <source src="sounds/Grocery bg.mp3" type="audio/mp3">
+
+    </audio>
+
+    <div class="list">
+        <img src="images/list.png"/>
+     
+
+    </div>
+
+    <div id="item1" class="snack1">
+        <button class="buttonsnack" id="snack1">
+            <img src="images/grocery items/27.png" />
+            <audio id="wrong" src="sounds/Wrong Buzzer - Sound Effect.mp3"></audio>
+        </button>
+    </div>
+    <div id="item2" class="snack2">
+        <button class="buttonsnack" id="snack2">
+            <img src="images/grocery items/28.png" />
+            <audio id="wrong" src="sounds/Wrong Buzzer - Sound Effect.mp3"></audio>
+        </button>
+    </div>
+    <div id="item3" class="snack3">
+        <button class="buttonsnack" id="snack3">
+            <img src="images/grocery items/29.png" />
+            <audio id="buttonClickSound" src="sounds/Cash.mp3"></audio>
+        </button>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <div id="popupText"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="sketch.js"></script>
+</body>
+
+</html>

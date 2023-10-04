@@ -1,0 +1,115 @@
+body {
+    background-image: url(images/Grocery\ Aisle.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 1920;
+  height: 1080;
+  margin-bottom: 0%;
+  
+
+}
+.list {
+    position: fixed;
+    top:550px;
+    right:20px;
+}
+
+.list img{
+    width:400px ;
+    height:auto ; 
+}
+
+
+.snack1 {
+    position: fixed;
+    top: 20px; 
+    right: 1254px;
+    
+}
+.snack1 img {
+    width: 120px; /* Maintain the original image width */
+    height: auto; 
+}
+.snack2 {
+    position:fixed; 
+    top: 542px; 
+    right: 818px;
+}
+.snack2 img {
+    width: 65px; 
+    height: auto;
+}
+.snack3 {
+    position:fixed; 
+    top: 14px ;
+    right: 280px;
+}
+.snack3 img {
+    width: 70px;;
+    height:auto;
+}
+/* .buttonsnack {  */
+     /* position: fixed;  */
+    /* top: 1px;  */
+    /* right: 1112px;  */
+ /* width: 120;Maintain the original image width  */
+   /* height: auto;Maintain the original image height  */
+   /* display: block;Remove any extra spacing below image   */
+
+/* } */
+
+.buttonsnack {
+    border: none; /* Remove the border */
+    padding: 0; /* Remove padding */
+    background: none; /* Remove background */
+    cursor: pointer; /* Add cursor pointer for interaction */
+    /* top: 20px; 
+    right: 1134px; */
+    position: fixed;
+}
+
+
+
+.buttonsnack img:hover {
+    filter: brightness(60%);
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+    z-index: 9999;
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    position: relative;
+    z-index: 10000;
+    font-family: Press Start 2P;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+   
+}

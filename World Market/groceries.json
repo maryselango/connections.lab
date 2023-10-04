@@ -1,0 +1,16 @@
+{
+    "banned_groceries": [
+        {
+            "Status": "BANNED!",
+            "Item": "Wheat Thins",
+            "Location": "Banned in the UK, parts of Europe and Japan",
+            "reason": "contain a chemical called BHT, which is short for butylated hydroxytoluene. There is some evidence that the chemical may be a carcinogen."
+        },
+        {
+            "Status": "BANNED!",
+            "Item": "Ritz Crackers",
+            "Location": "Banned in Australia, Switzerland, Hungary, Iceland, Norway and Denmark",
+            "reason": "contain hydrogenated cottonseed oil, which raise your risk for cardiovascular disease and diabetes"
+        }
+    ]
+}
