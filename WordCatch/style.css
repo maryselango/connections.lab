@@ -1,0 +1,22 @@
+body {
+  /* Background image for game */ 
+    background-image: url(images/Homebg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 1920px ;
+    height: 1080px ;
+    margin-bottom: 0%;
+    overflow: hidden;
+  } 
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+  overflow: hidden;
+}
+
